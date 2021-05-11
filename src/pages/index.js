@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 import { Container, Col, Row,  Button } from "react-bootstrap"
+import Img from 'gatsby-image'
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -27,7 +28,7 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title="All posts" />
-      <Bio />
+      
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
@@ -40,6 +41,11 @@ const BlogIndex = ({ data, location }) => {
                 itemType="http://schema.org/Article"
               >
                 <header>
+                  <Img
+                    fluid={post.frontmatter.cover_image?.childImageSharp.fluid}
+                    className="h-72 w-full gatsby-bg-image rounded mb-3"
+                    alt={title}
+                  />
                   <h2>
                     <Link to={post.fields.slug} itemProp="url">
                       <span itemProp="headline">{title}</span>
@@ -83,6 +89,13 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          cover_image {
+            childImageSharp {
+              fluid(maxWidth: 900) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }
