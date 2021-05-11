@@ -2,7 +2,7 @@
 title: Meet tech requirements with Agile
 date: 2021-05-11T04:14:28.941Z
 description: Lorem Ipsum is simply dummy text of the printing and typesetting industry
-cover_image: 463540.jpeg
+cover_image: a6a57f69226647.5b79b48308a50.jpg
 hot: true
 ---
 **Lorem Ipsum** is simply dummy text of the printing and typesetting industry
