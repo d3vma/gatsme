@@ -1,0 +1,15 @@
+{
+  "fullname": "Adel",
+  "role": "Frontend Engineer",
+  "summary": "Frontend Software Engineer experienced in building web applications following agile methodologies with a neat sense of UI/UX design. Working in/with multicultural and international teams.",
+  "experience": [
+    {
+      "start": "03/2020",
+      "end": "",
+      "role": "Frontend Developer",
+      "company": "iprice.my",
+      "description": "* Improving web speed performance\n* Run A/B testing experiments to enhance UX"
+    }
+  ],
+  "testimonials": []
+}
