@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
+import { Container, Col, Row,  Button } from "react-bootstrap"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
