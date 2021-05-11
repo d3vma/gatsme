@@ -11,5 +11,19 @@
       "description": "* Improving web speed performance\n* Run A/B testing experiments to enhance UX"
     }
   ],
-  "testimonials": []
+  "testimonials": [],
+  "skills": [
+    {
+      "name": "React"
+    },
+    {
+      "name": "HTML"
+    },
+    {
+      "name": "CSS"
+    },
+    {
+      "name": "Javascript"
+    }
+  ]
 }
