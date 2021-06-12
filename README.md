@@ -1,5 +1,5 @@
 This repo is to demonestrate some tricks for this article: 
-Build a blog & portfolio with React's Gatsby and Netlify CMS](https://medium.com/@d3vma/build-a-blog-portfolio-with-reacts-gatsby-and-netlify-cms-fc1bee6451a5/)
+[Build a blog & portfolio with React's Gatsby and Netlify CMS](https://medium.com/@d3vma/build-a-blog-portfolio-with-reacts-gatsby-and-netlify-cms-fc1bee6451a5/)
 
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
